@@ -89,13 +89,15 @@
         font-family: sans-serif;
     }
     body {
-        display: grid;
-        grid-template-columns: 3fr 2fr;
-        grid-template-areas:
-                    "header nav-links"
-                    "header-img header-img"
-                    "main sub-section"
-                    "footer footer";
+        display: flex;
+        flex-direction: column;
+    /*    display: grid;*/
+    /*    grid-template-columns: 3fr 2fr;*/
+    /*    grid-template-areas:*/
+    /*                "header nav-links"*/
+    /*                "header-img header-img"*/
+    /*                "main sub-section"*/
+    /*                "footer footer";*/
     }
     .hidden-on-desktop{
         display: none;
